@@ -9,7 +9,7 @@ This was accomplished using 2 macros on VBA – the original macro and a macro w
 
 ## Analysis and Results
 
-From the photos below we can see that our stocks took a hit in 2018. 10 of our 12 stocks being observed had a negative annual return (shown in red) in comparison to 2017, where only 1 of our 12 stocks had a negative return.
+From the photos below we can see that our stocks took a hit in 2018. 10 of our 12 stocks being observed yielded a negative annual return (shown in red) in comparison to 2017, where only 1 of our 12 stocks yeilded a negative return.
 (insert pic)
 We observed this result in 2 ways – through our original macro and through our refactored macro. Below we will see the differences between the 2 macros and their effect on the length of time needed to perform the task.
 The data sheet in question consisted of 3013 rows of data for both 2017 and 2018. For our analysis we wanted to satisfy 3 things: firstly, to display the total daily volume for the respective ticker for the year in question, secondly to display the annual return for the ticker in question, and lastly to display the ticker in question.
