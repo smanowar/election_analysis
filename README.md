@@ -2,13 +2,23 @@
 
 ## Overview of Election Audit
 ### Purpose
-The purpose of this analysis is to use Python to analyze a given data set to determine the outcomes of a recent local congressional election in Colarado.  Using the data set found in elections_results.csv we will determine the number of total votes cast, the candidates who recieved votes, the total amount of votes per candiate, the total amount of votes cast per county, the county with the highest voter turnout, and the overall winner.
+The purpose of this analysis is to use Python to analyze a given data set to determine the outcomes of a recent local congressional election in Colarado.  
+
+Using the data set, *elections_results.csv*, we will determine:
+
+- the total number of votes cast
+- the candidates who recieved votes
+- the total amount of votes per candiate 
+- the total amount of votes cast per county 
+- the county with the highest voter turnout 
+
+and the overall winner.
 
 ## Election-Audit Results
 ### Summary
-A total of 369,711 votes were cast in the election. Below we will analyze the distribution of votes by county and by candidate.
+A total of 369,711 votes were cast in the election. Below we will analyze the distribution of votes by county and per candidate.
 
-### Votes per County
+### Votes by County
 
 Votes for the election were cast in 3 counties in Colarado: Jefferson, Denver, and Arapahoe. These votes were disributed by county as follows:
 
@@ -48,18 +58,18 @@ file_to_save = os.path.join("analysis", "election_results.txt")
 
 The names inside the brackets will need to be modified to the files being used for the analysis, as well as the path to the files. This will ensure that our code is able to access the correct data set and output the results in the correct location. 
 
-***Delcaring what data to read in the data set***
+***Delcaring what data to reference in the data set***
 
   In our data set the names of the counties and the names of the candidates were columns 2 and 3 respectivley:
   <p align="center">
-<img src=> 
+<img src=https://github.com/smanowar/election_analysis/blob/main/visuals/excel%20rows.PNG?raw=true> 
 </p>
 
-  This was noted in our code as such:
+  This was scripted in our code as such:
   ```
   county_name = row[1]
   ```
   ```
   candidate_name = row[2]
   ```
-  Note that columns are addressed as 1 and 2 as indexing starts at the number 0. Slight modification will need to be made in the code to suit the layout of the data set being    used in the analysis.
+  Note that columns are referenced as 1 and 2 as indexing starts at the number 0. Slight modification will need to be made in the code to suit the layout of the data set being    used in the analysis to make sure the necessary data is being referenced.
