@@ -1,15 +1,23 @@
 # Election Analysis
 
-## Project Overview
-Our task was to complete an audit of a recent local congressional election using Python. We were tasked with obtaining the following information:
+## Overview of Election Audit
+Explain the purpose of this election audit analysis.
 
-1. Calculate the total number of votes cast.
-2. Obtain a complete list of candidates who recieved votes.
-3. Calculate the totoal number of votes each candidate recieved.
-4. Calculate the percentage of votes for each candidate.
-5. Determine the winner based on popular vote.
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code 1.38.1
+## Election-Audit Results
+Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
+- How many votes were cast in this congressional election?
+
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+- Which county had the largest number of votes?
+
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+
+## Election-Audit Summary
+
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
