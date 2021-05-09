@@ -6,7 +6,7 @@ The purpose of this analysis is to use Python to analyze a given data set to det
 
 ## Election-Audit Results
 ### Summary
-369,711 total votes were cast in the election. Below we will analyze the distribution of votes by county and by candidate.
+A total of 369,711 votes were cast in the election. Below we will analyze the distribution of votes by county and by candidate.
 
 ### Votes per County
 
@@ -33,9 +33,9 @@ We can conclude that with 73.38% of the votes, the winner of the election is Dia
 
 ## Election-Audit Summary
 
-The script used to analyze the data set is not unique to the Colarado congressional election. This script can be used to analyze a data set for any election with just a few modifications.
+The script used to analyze the data set is not unique to the Colarado congressional election, this script can be used to analyze a data set for any election with just a few minor modifications:
 
-***1.) Changing the path and file names***
+***Changing the path and file names***
 
 In order to make sure the script is accessing the correct information for our analysis, minor adjustments need to be made where we are declaring which file to analyze:         
 ```
@@ -48,7 +48,7 @@ file_to_save = os.path.join("analysis", "election_results.txt")
 
 The names inside the brackets will need to be modified to the files being used for the analysis, as well as the path to the files. This will ensure that our code is able to access the correct data set and output the results in the correct location. 
 
-***2.) Delcaring what data to read in the data set***
+***Delcaring what data to read in the data set***
 
   In our data set the names of the counties and the names of the candidates were columns 2 and 3 respectivley:
   *insert pic*
