@@ -26,7 +26,7 @@ Votes for the election were cast in 3 counties in Colarado: Jefferson, Denver, a
 - 306,055 votes were cast in Denver county
 - 24,801 votes were cast in Arapahoe county
 
-From the above we can see that Denver had the highest voter turnout with 82.8% of the votes being cast there. Jefferson county is to follow, making up 10.5% of the voter turnout. And lastly Arapahoe county, with 6.7% of the total votes occouring there.
+From the above we can see that **Denver had the highest voter turnout with 82.8% of the votes being cast there.** Jefferson county is to follow, making up 10.5% of the voter turnout. And lastly Arapahoe county, with 6.7% of the total votes occouring there.
 
 ### Votes per Candidate
 
@@ -38,7 +38,7 @@ A total of 3 candidates - Charles Casper Stockham, Diana DeGette, and Raymon Ant
 
 From the above we can see that Diana DeGette had the most number of votes - winning 73.8% of the votes. Charles Casper Stockham follows with 23% of the votes, and lastly Raymon Anthony Doane with 3.1% of the votes.
 
-We can conclude that with 73.38% of the votes, the winner of the election is Diana DeGette - with a total of 272,892 votes being cast for her.
+We can conclude that **with 73.38% of the votes, the winner of the election is Diana DeGette - with a total of 272,892 votes being cast for her.**
 
 
 ## Election-Audit Summary
