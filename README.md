@@ -51,7 +51,9 @@ The names inside the brackets will need to be modified to the files being used f
 ***Delcaring what data to read in the data set***
 
   In our data set the names of the counties and the names of the candidates were columns 2 and 3 respectivley:
-  *insert pic*
+  <p align="center">
+<img src=> 
+</p>
 
   This was noted in our code as such:
   ```
